@@ -1,0 +1,21 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  padding: 0 50px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
+  .header__moyo_icon {
+    height: 40px;
+    width: 40px;
+    -ms-flex-item-align: center;
+        align-self: center; }
+  .header__moyo_img {
+    height: 100%;
+    width: 100%; }
+
+/*# sourceMappingURL=header.css.map */
