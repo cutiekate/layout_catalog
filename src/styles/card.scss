@@ -15,6 +15,18 @@
     padding: 30px 19px 41px;
   }
 
+  &__img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+  }
+
+  &__img-wrapper:hover {
+    display: flex;
+    justify-content: center;
+    width: 194px;
+    border: 3px solid #f3f3f3;
+  }
+
   &__content {
     margin: 0;
     padding: 0 14px 15px;

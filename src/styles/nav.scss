@@ -28,6 +28,7 @@
   &__link:hover,
   .is-active {
     color: #00acdc;
+    transition: 1s;
   }
 
   .is-active::after {
