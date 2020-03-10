@@ -9,9 +9,8 @@ body {
 }
 
 .catalog {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   max-width: 1024px;
   margin: 50px auto;
   padding: 0 40px;
