@@ -22,13 +22,12 @@
     text-transform: uppercase;
     color: #000;
     position: relative;
-
+    transition: 1s;
   }
 
   &__link:hover,
   .is-active {
     color: #00acdc;
-    transition: 1s;
   }
 
   .is-active::after {

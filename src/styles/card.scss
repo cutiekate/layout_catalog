@@ -13,11 +13,12 @@
     width: 160px;
     height: 134px;
     padding: 30px 19px 41px;
+    transition: 1s;
   }
 
   &__img:hover {
     transform: scale(1.2);
-    transition: 1s;
+
   }
 
   &__img-wrapper:hover {

@@ -34,12 +34,11 @@ body {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-
+  transition: 1s;
 }
 
 .button:hover {
   border-color: #00acdc;
   color: #00acdc;
   background-color: #fff;
-  transition: 1s;
 }
