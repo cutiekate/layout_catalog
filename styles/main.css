@@ -41,13 +41,13 @@
   font-size: 12px;
   text-transform: uppercase;
   color: #000;
-  position: relative; }
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s; }
 
 .nav__link:hover,
 .nav .is-active {
-  color: #00acdc;
-  -webkit-transition: 1s;
-  transition: 1s; }
+  color: #00acdc; }
 
 .nav .is-active::after {
   content: "";
@@ -74,12 +74,12 @@
   .card__img {
     width: 160px;
     height: 134px;
-    padding: 30px 19px 41px; }
-  .card__img:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    padding: 30px 19px 41px;
     -webkit-transition: 1s;
     transition: 1s; }
+  .card__img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
   .card__img-wrapper:hover {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -208,13 +208,13 @@ body {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s; }
 
 .button:hover {
   border-color: #00acdc;
   color: #00acdc;
-  background-color: #fff;
-  -webkit-transition: 1s;
-  transition: 1s; }
+  background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

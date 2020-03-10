@@ -10,12 +10,12 @@
   .card__img {
     width: 160px;
     height: 134px;
-    padding: 30px 19px 41px; }
-  .card__img:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    padding: 30px 19px 41px;
     -webkit-transition: 1s;
     transition: 1s; }
+  .card__img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
   .card__img-wrapper:hover {
     display: -webkit-box;
     display: -ms-flexbox;

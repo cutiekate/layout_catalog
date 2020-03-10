@@ -21,13 +21,13 @@
   font-size: 12px;
   text-transform: uppercase;
   color: #000;
-  position: relative; }
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s; }
 
 .nav__link:hover,
 .nav .is-active {
-  color: #00acdc;
-  -webkit-transition: 1s;
-  transition: 1s; }
+  color: #00acdc; }
 
 .nav .is-active::after {
   content: "";
