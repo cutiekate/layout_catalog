@@ -71,8 +71,8 @@
     width: 160px;
     height: 134px;
     padding: 30px 19px 41px;
-    -webkit-transition: 1s;
-    transition: 1s; }
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out; }
   .card__img:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2); }
