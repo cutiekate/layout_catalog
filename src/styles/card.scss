@@ -21,12 +21,17 @@
 
   }
 
-  &__img-wrapper:hover {
+  &__img-wrapper {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
-    width: 194px;
+    width: 198px;
     margin-top: -2px;
-    border: 3px solid #f3f3f3;
+    border: 3px solid transparent;
+  }
+
+  &__img-wrapper:hover {
+    border-color: #f3f3f3;
   }
 
   &__content {
